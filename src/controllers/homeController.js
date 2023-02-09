@@ -9,8 +9,6 @@ exports.getHomePage = (req, res) => {
 
     if (search) {
         cats = cats.filter(cat => cat.name.toLowerCase().includes(search.toLowerCase()));
-    } else if (search.length = 0) {
-        res.redirect('/')
     }
 
     res.render('index', { cats, search });

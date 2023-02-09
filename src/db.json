@@ -5,27 +5,13 @@
       "description": "Very lazy",
       "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/12A9B/production/_111434467_gettyimages-1143489763.jpg",
       "id": 1,
-      "breed": "Fluffy Cat"
-    },
-    {
-      "name": "Toshka",
-      "description": "Dominant and aggressive to other cats. Will probably eat you in your sleep. Very cute tho.",
-      "image": "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-145679137-scaled-e1619025176434.jpg?resize=2048,1365",
-      "id": 2,
-      "breed": "Fluffy Cat"
+      "breed": "Smelly Cat"
     },
     {
       "name": "Marta",
       "description": "Dominant and aggressive to other cats. Will probably eat you in your sleep. Very cute tho.",
       "image": "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-145679137-scaled-e1619025176434.jpg?resize=2048,1365",
       "id": 3,
-      "breed": "Fluffy Cat"
-    },
-    {
-      "name": "Test33",
-      "description": "Dominant and aggressive to other cats. Will probably eat you in your sleep. Very cute tho.",
-      "image": "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-145679137-scaled-e1619025176434.jpg?resize=2048,1365",
-      "id": 4,
       "breed": "Fluffy Cat"
     },
     {
@@ -40,7 +26,7 @@
       "description": "test",
       "image": "https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-7-57b30aa10707a__605.jpg",
       "id": 6,
-      "breed": "Fluffy Cat"
+      "breed": "Persian cat"
     }
   ]
 }
