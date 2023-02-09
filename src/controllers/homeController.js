@@ -2,5 +2,16 @@ const db = require('../db.json')
 
 exports.getHomePage = (req, res) => {
 
-    res.render('index', { cats: db.cats })
+    const { search } = req.query;
+    let cats = db.cats;
+
+
+
+    if (search) {
+        cats = cats.filter(cat => cat.name.toLowerCase().includes(search.toLowerCase()));
+    } else if (search.length = 0) {
+        res.redirect('/')
+    }
+
+    res.render('index', { cats, search });
 }
