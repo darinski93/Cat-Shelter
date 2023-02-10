@@ -20,7 +20,8 @@ router.get('/edit/:catId', catController.getEditCat)
 router.post('/edit/:catId', catController.postEditCat);
 
 
-router.get('/cat-shelter', catController.getCatShelter);
+router.get('/cat-shelter/:catId', catController.getCatShelter);
+router.post('/cat-shelter/:catId', catController.deleteCat);
 
 
 module.exports = router

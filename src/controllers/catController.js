@@ -68,5 +68,27 @@ exports.postEditCat = (req, res) => {
 
 
 exports.getCatShelter = (req, res) => {
-    res.render('catShelter')
+
+    let catId = Number(req.params.catId);
+    let cat = db.cats.find(x => x.id === catId);
+
+
+
+    res.render('catShelter', { cat })
+
+}
+
+exports.deleteCat = (req, res) => {
+
+    let catId = Number(req.params.catId);
+
+    db.cats = db.cats.filter(x => x.id !== catId);
+
+    const jsonData = JSON.stringify(db, null, 2)
+
+    fs.writeFileSync(path.resolve(__dirname, '../db.json'), jsonData)
+
+
+    res.redirect('/');
+
 }
